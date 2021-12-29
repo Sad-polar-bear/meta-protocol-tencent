@@ -1,0 +1,8 @@
+[hello]
+address = "SERVICE_ADDR"
+network = "tcp"
+timeout = "1s"
+
+[server]
+addr = "all:8090/tcp"
+name = "hello"

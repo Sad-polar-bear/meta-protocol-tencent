@@ -1,0 +1,11 @@
+module Hello
+{
+    struct GetReq {
+        0 optional int seq;
+    };
+
+    struct GetRsp {
+        0 optional int ask;
+        1 optional string label;
+    };
+};
